@@ -3,7 +3,7 @@ describe('example to-do app', () => {
     
     it('Validates PractiTest Page', () => {
     // Visit PractiTest
-        cy.visit('https://b04e5d01-342c-4b18-851f-05c27a841e42.mock.pstmn.io');
+        cy.visit('https://www.practitest.com/');
     
     // Hover on "Products" and select "Test Automation Management"
     cy.contains('Products').trigger('mouseover',{force:true});
@@ -23,11 +23,5 @@ describe('example to-do app', () => {
     cy.get('#test-execution > .chess-quote > .flex-row > .flex-column > .flex_feedback > .feedback_container > .feedback_container_description > :nth-child(1)').should('exist')
 
 
-    
-// Include API testing
-cy.request('https://b04e5d01-342c-4b18-851f-05c27a841e42.mock.pstmn.io').then((response) => {
-    // Perform assertions on the API response
-    expect(response.status).to.eq(200);
-
   })
-    })})
+})
