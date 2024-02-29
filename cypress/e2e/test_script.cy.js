@@ -49,3 +49,14 @@ describe('Signature Bank Quality Assurance Exercise', () => {
   
   
   })
+
+
+  // Steps on running test using cypress automation tool  
+  // 1. Run this command on your command prompt, assuming node.js is already installed : npm install cypress --save-dev
+  // 2. run this command to open cypress : npx cypress open 
+  // 3. Ensure you use the full repository seeing it contains all neccesary dependencies 
+  // 4. Once cypress opens select your desired browser for this test 
+  // 5. Open the repository using your referred IDE i suggest VSCode 
+  // 6. Once you select a browser from the cypress interface, naviagte to the spec file with name SBT(Signature bank test)
+  // 7. Run the file under e2e with name test_script.cy.js
+  // 8. once this is successful detials will be dispatchEvent;laed on the screen 
