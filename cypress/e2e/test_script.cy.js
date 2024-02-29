@@ -56,7 +56,7 @@ describe('Signature Bank Quality Assurance Exercise', () => {
   // 2. run this command to open cypress : npx cypress open 
   // 3. Ensure you use the full repository seeing it contains all neccesary dependencies 
   // 4. Once cypress opens select your desired browser for this test 
-  // 5. Open the repository using your referred IDE i suggest VSCode 
-  // 6. Once you select a browser from the cypress interface, naviagte to the spec file with name SBT(Signature bank test)
+  // 5. Open the repository using your referred IDE i suggest VSCode to view the test script  
+  // 6. Once you select a browser from the cypress interface, naviagte e2e folder 
   // 7. Run the file under e2e with name test_script.cy.js
-  // 8. once this is successful detials will be dispatchEvent;laed on the screen 
+  // 8. once this is successful detials will be displayed correctly on the screen 
